@@ -1,18 +1,14 @@
 package com.lunch.luckydrawbentto
 
-import android.animation.ObjectAnimator
-import android.graphics.Color
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AnimationUtils
-import android.widget.Toast
-import android.widget.Toast.*
 import androidx.databinding.DataBindingUtil
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.lunch.luckydrawbentto.databinding.ActivityMainBinding
 
 
@@ -79,5 +75,11 @@ class MainActivity : AppCompatActivity() {
         val flAdapter = FoodListAdapter(items)
         fl.adapter = flAdapter
         fl.layoutManager = LinearLayoutManager(this)
+
+        //페이지 이동
+        val secondIntent = Intent(this, AddBenttoActivity::class.java)
+        binding.fabadd.setOnClickListener {
+            startActivity(secondIntent)
+        }
     }
 }
