@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/blItem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/border2"
+        android:fontFamily="@font/nanum"
+        android:gravity="left|center"
+        android:padding="15dp"
+        android:textFontWeight="900"
+        android:layout_weight="30"
+        android:text="fl"
+    />
+
+    <Button
+        android:id="@+id/addList"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+
+        android:fontFamily="@font/nanum"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="삭제"
+        android:textFontWeight="900" />
+</LinearLayout>
