@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LuckyDrawBentto">
-        <activity
-            android:name=".MainActivitynavi"
-            android:exported="false"/>
             <activity
                 android:name=".SplashActivity"
                 android:exported="true">
@@ -22,6 +19,7 @@
                 </intent-filter>
             </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".AddBenttoActivity" />
     </application>
 
 </manifest>
