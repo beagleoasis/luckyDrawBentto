@@ -81,5 +81,11 @@ class MainActivity : AppCompatActivity() {
         binding.fabadd.setOnClickListener {
             startActivity(secondIntent)
         }
+
+
+        val fabNaviIntent = Intent(this, AddNearRestActivity::class.java)
+        binding.fabNavi.setOnClickListener {
+            startActivity(fabNaviIntent)
+        }
     }
 }
