@@ -8,6 +8,8 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
 import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import com.lunch.luckydrawbentto.databinding.ActivityMainBinding
 
 class AddNearRestActivity : AppCompatActivity() {
@@ -28,6 +30,10 @@ class AddNearRestActivity : AppCompatActivity() {
         ab.setDisplayHomeAsUpEnabled(true)
         toolbar.title = ""
 
+        val database = Firebase.database
+        val myRef = database.getReference("message")
+
+        myRef.setValue("Hello, World!")
     }
 
     // 툴바 메뉴 버튼을 설정

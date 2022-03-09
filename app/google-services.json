@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050628891115",
+    "project_id": "luckydrawbentto",
+    "storage_bucket": "luckydrawbentto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050628891115:android:77d3579f15c2df217cb9ae",
+        "android_client_info": {
+          "package_name": "com.lunch.luckydrawbentto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050628891115-6v0se2s6qgpvkt8jcsltu6kmlspvdk7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ17P4iygldfwtCi0wVqF_tF0qtnQRbrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050628891115-6v0se2s6qgpvkt8jcsltu6kmlspvdk7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
